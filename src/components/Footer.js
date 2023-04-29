@@ -7,12 +7,10 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <p>Copyright 2022. All Rights Reserved</p>
+        <Row className="align-items-md-end">
+          <Col size={12} sm={11} className="text-end text-sm-end">
+            <p> Copyright 2022. All Rights Reserved <br /></p>
+            <img className="logo " src={logo} alt="Logo" />
           </Col>
         </Row>
       </Container>

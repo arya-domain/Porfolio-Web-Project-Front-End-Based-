@@ -17,53 +17,120 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <Row>
-                  <p>Here Are Some Things that I <br/>✦ Created ✦ Wrote ✦ Achieved</p>
-                </Row>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Development Projects</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Research Papers</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">CP Profile Info</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                    <div className='hover-zoom'>
-                       ✦ Portfolio Site - <a href="#">Github</a>
-                    </div>
-                    <div className='hover-zoom'>
-                       ✦ Wireless Volume Control (Python) - <a href="#">Github</a>
-                    </div>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                      <div className='hover-zoom'> 
-                        ✦ Modified Genetic Algorithm with Deep Learning for Fraud <br/>&nbsp;&nbsp;&nbsp;&nbsp; Transactions of Ethereum SmartContract - <a href="#">Publishing</a>
-                      </div>  
-                      <div className='hover-zoom'> 
-                        ✦ Novel Deep Learning Model with Modified Whale optimization 
-                          <br/>&nbsp;&nbsp;&nbsp;&nbsp; for Fish Image Classification - <a href="#">Publishing</a> 
-                      </div>
-                    </Tab.Pane>
-                   
-                    <Tab.Pane eventKey="third">
-                    <div className='hover-zoom'> 
-                      ✦ Competitive Solved Question From Question Bank -<a href="https://github.com/arya-domain/Laptop-VS-code.git"> Github</a>
-                    </div>
-                    <div className='hover-zoom'> 
-                      ✦ CodeChef Competitive Programming Profile -<a href="https://www.codechef.com/users/arya_fake"> CodeChef</a>
-                    </div>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <h2>Projects</h2>
+                  <Row>
+                    <p>Here Are Some Things that I <br />✦ Created ✦ Wrote ✦ Achieved</p>
+                  </Row>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav variant="pills" className="nav-pills mb-6 justify-content-center align-items-center" id="pills-tab">
+                      <Nav.Item>
+                        <Nav.Link eventKey="first" >Devs</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Research</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">CP Profile</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Tab.Pane eventKey="first">
+                        <table>
+                          <thread>
+                            <tr>
+                              <th> </th>
+                              <th> </th>
+                              <th> </th>
+                              <th> </th>
+                            </tr>
+                          </thread>
+                          <tbody>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td> Portfolio Site Front-End Based</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/Portfolio-Web-Project-Using-React-NodeJS.git">Github</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td>Portfolio Site With Back-End</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/Porfolio-Web-Project-Front-End-Based-.git">Github</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td>Wireless Volume Control Using Python</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/PROJECTS.git">Github</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <table >
+                          <thread>
+                            <tr>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                            </tr>
+                          </thread>
+                          <tbody>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td> Modified Genetic Algorithm with Deep Learning for <br /> Fraud Transactions of Ethereum SmartContract </td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://doi.org/10.3390/app13020697">Published</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td>Novel Cuckoo Search-Based Metaheuristic Approach for  <br /> Deep Learning Prediction of Depression</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://doi.org/10.3390/app13095322">Published</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp;</td>
+                              <td>Novel Deep Learning Model with Modified Whale optimization for  <br /> Fish Image Classification</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="">Publishing</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                      </Tab.Pane>
+
+                      <Tab.Pane eventKey="third">
+                        <table >
+                          <thread>
+                            <tr>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                            </tr>
+                          </thread>
+                          <tbody>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp; </td>
+                              <td>Competitive Solved Question From Question Bank</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/Laptop-VS-code.git">Github</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp; </td>
+                              <td> CodeChef Competitive Programming Profile</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://www.codechef.com/users/arya_fake">CodeChef</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>}
             </TrackVisibility>
           </Col>
         </Row>

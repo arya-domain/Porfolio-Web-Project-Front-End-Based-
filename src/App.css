@@ -126,6 +126,7 @@ select:focus {
   }
 
 }
+
 @media (min-width:360px) {
   main .container {
     max-width: 80%;
@@ -134,9 +135,8 @@ select:focus {
   .banner .profile-picture{
     position: relative;
     margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 20%;
-    max-width: 80%;
+    margin-left: 12%;
+    max-width: 75%;
   }
   .project .nav.nav-pills  {
     max-width: 100%;
@@ -199,7 +199,10 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
-
+.logo {
+  width: 100px;
+  height: 100px;
+}
 .social-icon {
   display: inline-block;
   margin-left: 14px;
@@ -417,7 +420,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
   width: 100%;
   position: center;
-  background-image: url('../..//client/src/assets/img/profilephoto.png');
+  background-image: url('../src/assets/img/profilephoto.png');
   transform: scale(0.8);
   background-size: cover;
   border-radius: 50%;

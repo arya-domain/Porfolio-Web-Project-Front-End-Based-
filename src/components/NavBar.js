@@ -5,6 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import navIcon4 from '../assets/img/nav-icon4.svg';
+import navIcon5 from '../assets/img/nav-icon5.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -38,7 +39,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" />
+            <img className="logo" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -55,9 +56,10 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/aryan.das.73700/"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/ig_a.r.y.a/"><img src={navIcon3} alt="" /></a>
                 <a href="https://twitter.com/arya_domain/"><img src={navIcon4} alt="" /></a>
+                <a href="mailto:aryandas156@gmail.com"><img src={navIcon5} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Let’s Connect &nbsp;<ArrowRightCircle size={30}/></span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
