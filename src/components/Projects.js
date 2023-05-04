@@ -38,25 +38,31 @@ export const Projects = () => {
                               <th> </th>
                               <th> </th>
                               <th> </th>
-                              <th> </th>
                             </tr>
                           </thread>
                           <tbody>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td> Portfolio Site Front-End Based</td>
+                              <td>✦&nbsp; Crypto DEX Using Smart Contracts</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/crypto-dex.git">Github</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp; RNA-Sequencing Using NCBI Sequencing Data</td>
+                              <td>&nbsp;&nbsp;</td>
+                              <td><a href="https://github.com/arya-domain/RNA-sequencing">Github</a></td>
+                            </tr>
+                            <tr className='hover-zoom'>
+                              <td>✦&nbsp; Portfolio Site Front-End Based</td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="https://github.com/arya-domain/Portfolio-Web-Project-Using-React-NodeJS.git">Github</a></td>
                             </tr>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td>Portfolio Site With Back-End</td>
+                              <td>✦&nbsp;Portfolio Site With Back-End</td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="https://github.com/arya-domain/Porfolio-Web-Project-Front-End-Based-.git">Github</a></td>
                             </tr>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td>Wireless Volume Control Using Python</td>
+                              <td>✦&nbsp;Wireless Volume Control Using Python</td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="https://github.com/arya-domain/PROJECTS.git">Github</a></td>
                             </tr>
@@ -71,25 +77,21 @@ export const Projects = () => {
                               <th></th>
                               <th></th>
                               <th></th>
-                              <th></th>
                             </tr>
                           </thread>
                           <tbody>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td> Modified Genetic Algorithm with Deep Learning for <br /> Fraud Transactions of Ethereum SmartContract </td>
+                              <td>✦&nbsp;Modified Genetic Algorithm with Deep Learning for <br /> Fraud Transactions of Ethereum SmartContract </td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="https://doi.org/10.3390/app13020697">Published</a></td>
                             </tr>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td>Novel Cuckoo Search-Based Metaheuristic Approach for  <br /> Deep Learning Prediction of Depression</td>
+                              <td>✦&nbsp;Novel Cuckoo Search-Based Metaheuristic Approach for  <br /> Deep Learning Prediction of Depression</td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="https://doi.org/10.3390/app13095322">Published</a></td>
                             </tr>
                             <tr className='hover-zoom'>
-                              <td>✦&nbsp;</td>
-                              <td>Novel Deep Learning Model with Modified Whale optimization for  <br /> Fish Image Classification</td>
+                              <td>✦&nbsp;Novel Deep Learning Model with Modified Whale optimization for  <br /> Fish Image Classification</td>
                               <td>&nbsp;&nbsp;</td>
                               <td><a href="">Publishing</a></td>
                             </tr>
