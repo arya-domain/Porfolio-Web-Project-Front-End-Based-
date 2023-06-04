@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [" Web3 Dev" , " ML Dev" , " Researcher", "Blockchain Dev"];
+  const toRotate = [" Web3 Dev", " ML Dev", " Researcher", "Blockchain Dev"];
   const period = 2000;
 
   useEffect(() => {
@@ -65,7 +65,7 @@ export const Banner = () => {
                   <p>✤ Knack for Developing </p>
                   <p>✤ Coding Enthusiast</p>
                   <p>✤ Competitive Programmer</p>
-                  <a href="resume.pdf" download="Aryan Das.pdf" className="btn btn-primary" >Download Resume <ArrowDownCircle size={35} /></a>
+                  <a href="aryan_resume.pdf" download="Aryan Das.pdf" className="btn btn-primary" >Download Resume <ArrowDownCircle size={35} /></a>
                 </div>}
             </TrackVisibility>
           </Col>
